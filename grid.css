@@ -7,11 +7,21 @@
 	clear: both;
 }
 
+.background {
+	margin: 0 auto;
+	background-image: url('gradient.jpg');
+}
 
 .container {
 	width:  1170px;
+	height: 700px;
 	margin: 0 auto;
-	background-color: antiquewhite;
+	background-color: grey;
+}
+
+.container-b {
+	align-items: center;
+	justify-content: center;
 }
 
 .container-fluid {
@@ -111,4 +121,53 @@
 	margin: 0 15px;
 	background-color: midnightblue;
 	float: left;
+}
+
+.work {
+	width: 250px;
+	margin: 0 15px;
+	float: left;
+	position: absolute;
+	left: 270px;
+}
+
+.kermit {
+	width: 20px;
+	margin: 0 15px;
+	float: left;
+	position: absolute;
+	left: 250px;
+	height: 50px;
+	width: 20px;
+}
+
+.gru {
+	width: 20px;
+	margin: 0 15px;
+	float: left;
+	position: absolute;
+	left: 430px;
+	height: 50px;
+	width: 20px;
+}
+
+.tube {
+	width: 20px;
+	margin: 0 15px;
+	float: left;
+	position: relative;
+	left: 0;
+	height: 200px;
+	width: 20px;
+}
+
+.design {
+	width: 20px;
+	margin: 0 15px;
+	float: left;
+	position: relative;
+	left: 410px;
+	height: 0px;
+	width: 20px;
+	top: 160px;
 }
